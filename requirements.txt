@@ -1,0 +1,18 @@
+pandas
+numpy
+scikit-learn
+pyarrow
+loguru
+# linters
+isort
+black
+ruff
+pylint
+pre-commit
+# dev
+ipykernel
+seaborn
+matplotlib
+# test
+pytest
+pytest-cov

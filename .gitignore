@@ -1,0 +1,7 @@
+venv
+.venv
+.coverage
+.pytest_cache
+*.joblib
+*.csv
+__pycache__

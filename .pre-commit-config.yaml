@@ -1,0 +1,42 @@
+# fail_fast: true
+
+# repos:
+#   - repo: local
+#     hooks:
+#       - &default_hook
+#         id: default
+#         name: default
+#         entry: python -c "print('No entry for default hook')"
+#         files: &files ^(src|tests)/
+#         args: &paths_list
+#           - src
+#           - tests
+#         language: system
+#         types: [python]
+#         pass_filenames: false
+#         stages: [pre-commit]
+
+#       - <<: *default_hook
+#         id: isort
+#         name: isort
+#         entry: isort
+#         args: *paths_list
+
+#       - <<: *default_hook
+#         id: black
+#         name: black
+#         entry: black
+#         args: *paths_list
+
+#       - <<: *default_hook
+#         id: ruff
+#         name: ruff
+#         entry: ruff check
+#         args: *paths_list
+
+#       - <<: *default_hook
+#         id: pylint
+#         name: pylint
+#         entry: pylint
+#         args: *paths_list
+
