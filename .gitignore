@@ -5,3 +5,5 @@ venv
 *.joblib
 *.csv
 __pycache__
+uv_extras.toml
+.ruff_cache
