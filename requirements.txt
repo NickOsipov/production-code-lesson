@@ -3,6 +3,8 @@ numpy
 scikit-learn
 pyarrow
 loguru
+flask
+requests
 # linters
 isort
 black
