@@ -19,6 +19,12 @@ def load_data():
     # Load the iris dataset as an example
     iris = load_iris()
     data = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+    data = data.rename(columns={
+        'sepal length (cm)': 'sepal_length',
+        'sepal width (cm)': 'sepal_width',
+        'petal length (cm)': 'petal_length',
+        'petal width (cm)': 'petal_width'
+    })
     data['target'] = iris.target
     return data
 

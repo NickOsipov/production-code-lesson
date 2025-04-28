@@ -33,7 +33,6 @@ def main():
     metric_test = evaluate_model(model_loaded, df_test)
     logger.info(f'Test metric: {metric_test}')
 
-
     logger.info('Pipeline finished')
 
 
