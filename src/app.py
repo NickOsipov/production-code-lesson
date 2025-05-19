@@ -19,7 +19,7 @@ MODEL = load_model(MODEL_PATH)
 logger.info("Model loaded successfully.")
 
 
-@app.route('/healthcheck', methods=['GET'])
+@app.route('/', methods=['GET'])
 def health_check():
     """
     Health check endpoint.
